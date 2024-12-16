@@ -5,11 +5,15 @@
 # **Air Quality Prediction Using Linear Regression in R**
 
 ## **Overview**
+
+
 This project aims to predict the **Air Quality Index (AQI)** using **Linear Regression models** in R. By analyzing pollutant data and vehicle density statistics, the project explores the relationship between various environmental factors and AQI levels. The analysis leverages **statistical methods**, **data visualization**, and **model evaluation techniques** to deliver actionable insights.
 
 ---
 
 ## **Features**
+
+
 - **Data Cleaning**: Handle missing values, outliers, and inconsistencies in the datasets.
 - **Exploratory Data Analysis (EDA)**: Visualize and summarize the data, including correlations between pollutants and AQI.
 - **Statistical Assumptions**: Test for normality, variance equality, and independence to validate model assumptions.
@@ -23,6 +27,8 @@ This project aims to predict the **Air Quality Index (AQI)** using **Linear Regr
 ---
 
 ## **Datasets**
+
+
 1. **Global Air Pollution Dataset**  
    - Contains air quality measurements for various pollutants (PM2.5, CO, NO2, Ozone).  
    - Columns include `Country`, `City`, `AQI.Value`, and pollutant-specific AQI values.
@@ -37,6 +43,8 @@ This project aims to predict the **Air Quality Index (AQI)** using **Linear Regr
 ---
 
 ## **Installation**
+
+
 ### **Prerequisites**
 - **R (>= 4.0)**  
 - RStudio (optional but recommended)
@@ -54,6 +62,8 @@ lapply(required_packages, library, character.only = TRUE)
 ---
 
 ## **Project Workflow**
+
+
 1. **Data Loading and Cleaning**  
    - Import datasets, handle missing values, and merge them for analysis.
 2. **Exploratory Data Analysis**  
@@ -108,6 +118,8 @@ cat("RMSE:", rmse)
 ---
 
 ## **Results**
+
+
 1. **Correlations**:
    - PM2.5 and NO2 showed the strongest correlation with AQI levels.
 2. **Model Performance**:
@@ -118,6 +130,8 @@ cat("RMSE:", rmse)
 ---
 
 ## **Visualization**
+
+
 - **Scatter Plots**: Show relationships between pollutants and AQI.  
 - **Boxplots**: Compare AQI distributions across vehicle density groups.  
 - **Heatmaps**: Highlight correlations between variables.  
@@ -127,6 +141,8 @@ cat("RMSE:", rmse)
 
 
 ## **Future Work**
+
+
 - Incorporate time-series analysis for AQI prediction.
 - Add additional predictors, such as weather data or industrial emissions.
 - Experiment with advanced models like Random Forest or Gradient Boosting.
@@ -134,10 +150,11 @@ cat("RMSE:", rmse)
 ---
 
 ## **Contributors**
-- [Rouaa Guesmi](https://github.com/yourusername)  
-- [Mohamed Amine Ghorbali](https://github.com/yourusername)  
 
-Feel free to contribute to this project by submitting a pull request!
+
+- [Rouaa Guesmi](https://github.com/rouaaguesmi1)  
+- [Mohamed Amine Ghorbali](https://github.com/Aethelios)  
+
 
 ---
 
